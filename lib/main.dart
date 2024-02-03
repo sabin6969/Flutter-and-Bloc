@@ -1,5 +1,4 @@
-import 'package:blocpracticeapp/views/internet_connectivity_cubit_view.dart';
-import 'package:blocpracticeapp/views/internet_connectivity_view.dart';
+import 'package:blocpracticeapp/views/login_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.green,
       ),
-      home: const InternetCubitView(),
+      home: const LoginView(),
     );
   }
 }
